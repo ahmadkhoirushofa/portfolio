@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad Khoiru Shofa | Data & Business Analyst</title>
+    <!-- Tailwind CSS via CDN for simplicity -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                blue: '#0EA5E9',   /* Sky 500 */
+                green: '#10B981',  /* Emerald 500 */
+                dark: '#0F172A',   /* Slate 900 */
+                light: '#F8FAFC',  /* Slate 50 */
+              }
+            },
+            backgroundImage: {
+              'grid-pattern': "linear-gradient(to right, #1e293b 1px, transparent 1px), linear-gradient(to bottom, #1e293b 1px, transparent 1px)",
+              'grid-pattern-light': "linear-gradient(to right, #e2e8f0 1px, transparent 1px), linear-gradient(to bottom, #e2e8f0 1px, transparent 1px)",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling with offset for fixed navbar */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+      
+      /* Background utilities */
+      .bg-grid {
+        background-size: 40px 40px;
+        mask-image: linear-gradient(to bottom, transparent, 10%, black, 90%, transparent);
+        -webkit-mask-image: linear-gradient(to bottom, transparent, 10%, black, 90%, transparent);
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/portfolio/assets/index-_oiFz4yo.js"></script>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+    <!-- Entry Point for Vite -->
+  </body>
+</html>
