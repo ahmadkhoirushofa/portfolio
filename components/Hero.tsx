@@ -135,7 +135,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 dark:text-slate-400 font-semibold">Focus on</p>
-                  <p className="text-xs font-bold text-slate-800 dark:text-white">Market Analyst</p>
+                  <p className="text-xs font-bold text-slate-800 dark:text-white"> Data Analyst & Machine Learning</p>
                 </div>
               </motion.div>
 
@@ -148,8 +148,8 @@ const Hero: React.FC = () => {
                   <Database size={24} />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-500 dark:text-slate-400 font-semibold">Experience</p>
-                  <p className="text-xs font-bold text-slate-800 dark:text-white">Data Analyst</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 font-semibold">Interest in</p>
+                  <p className="text-xs font-bold text-slate-800 dark:text-white">Technology, Education & Marketing</p>
                 </div>
               </motion.div>
             </motion.div>
