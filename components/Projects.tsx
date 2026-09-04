@@ -22,16 +22,26 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "GS Dashboard E-Commerce Analysis",
+      title: "Sales Retail Analysis",
       category: "Data Visualization",
-      description: "An interactive dashboard to visualize 7,500 transaction data points. Analyze daily sales trends and market dominance (Shopee 44%, Tokopedia 39%).",
+      description: "An interactive dashboard to visualize 500k transaction data points. Analyze Monthly sales trends and market dominance and profit persentage.",
       image: "GS-dashboard.jpg",
-      tech: ["Looker Studio", "Google Spreadsheet", "Data Cleaning"],
-      stats: "7.5K+ Records",
-      link: "https://lookerstudio.google.com/reporting/9bc25f55-5375-47ce-bcb3-f55fdd08d333" 
+      tech: ["Dashboard", "MS Excel", "Power Query", "Pivot Table"],
+      stats: "500K+ Records",
+      link: "https://github.com/ahmadkhoirushofa/Sales-Ritel-Analysis" 
     },
     {
       id: 2,
+      title: "Sublimation Market Analyst",
+      category: "Data Visualization",
+      description: "An interactive dashboard to visualize the Market Potential and Competitive Analysis in Sublimation Industries.",
+      image: "Market Analyst Sublimation Printing.png",
+      tech: ["Looker Studio", "Google Sheet", "Data Collection"],
+      stats: "383 Records",
+      link: "https://github.com/ahmadkhoirushofa/Market-Analyst-SSI" 
+    },
+    {
+      id: 3,
       title: "Web-Based Waste Detection",
       category: "Computer Vision & Web App",
       description: "A Flask-based web application integrating the Xception-CBAM model for garbage classification with a peak validation accuracy of 93.37%.",
@@ -41,7 +51,7 @@ const Projects: React.FC = () => {
       link: "https://github.com/ahmadkhoirushofa/web-based-waste-detection"
     },
     {
-      id: 3,
+      id: 4,
       title: "Loan Activity Fraud Detection",
       category: "Machine Learning",
       description: "Deep analysis of financial transaction dataset (2 million rows). Using Random Forest and XGBoost to detect fraud in imbalanced data.",
@@ -51,7 +61,7 @@ const Projects: React.FC = () => {
       link: "https://www.kaggle.com/competitions/ristek-datathon-2024/leaderboard"
     },
     {
-      id: 4,
+      id: 5,
       title: "Cyberbullying Detection",
       category: "NLP (Natural Language Processing)",
       description: "A cyberbullying detection system for Twitter content using the LSTM algorithm. Trained with 46,000+ tweets with an accuracy of 91%.",
@@ -61,7 +71,7 @@ const Projects: React.FC = () => {
       link: "https://github.com/ahmadkhoirushofa/Cyberbullying-Detections"
     },
     {
-      id: 5,
+      id: 6,
       title: "Sales Performance Analysis",
       category: "Data Analysis",
       description: "Comprehensive analysis of sales performance. Identifying top-selling products, purchasing patterns, customer distribution, and strategic recommendations for revenue growth.",
@@ -71,7 +81,7 @@ const Projects: React.FC = () => {
       link: "https://github.com/ahmadkhoirushofa/Final-Project-Rakamin-Dashboard-Penjulan"
     },
     {
-      id: 6,
+      id: 7,
       title: "Netflix Dashboard",
       category: "Data Visualization",
       description: "Creation of an interactive dashboard that visualizes historical Netflix data, including content trends, film countries of origin, and top film directors.",
@@ -79,6 +89,26 @@ const Projects: React.FC = () => {
       tech: ["Tableau", "Kaggle", "Ms. Excel"],
       stats: "31% AS Movie",
       link: "https://public.tableau.com/app/profile/ahmad.khoiru.shofa/viz/dashboardnetflix_16980913448090/Dashboard1"
+    },
+    {
+      id: 8,
+      title: "Customer Segmentation",
+      category: "Machine Learning",
+      description: "Development of a customer segmentation model using K-Means clustering to group customers based on their characteristics and purchasing behavior, providing insights into distinct customer segments.",
+      image: "Customer Segmentation.png",
+      tech: ["KMeans", "Kaggle", "Python"],
+      stats: "200 Customer",
+      link: "https://github.com/ahmadkhoirushofa/Customer-Segmentation"
+    },
+    {
+      id: 9,
+      title: "Sentiment Analysis",
+      category: "Data Visualization",
+      description: "Development of a sentiment analysis dashboard to analyze user reviews of educational applications, identifying positive, neutral, and negative sentiments to uncover user feedback and satisfaction insights.",
+      image: "Sentimen Analysis.png",
+      tech: ["Scrapping", "Google Colab", "Python"],
+      stats: "200 Customer",
+      link: "https://github.com/ahmadkhoirushofa/Customer-Segmentation"
     }
   ];
 

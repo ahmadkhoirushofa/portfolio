@@ -18,7 +18,7 @@ const About: React.FC = () => {
             </h2>
             <div className="prose prose-slate dark:prose-invert text-slate-600 dark:text-slate-300">
               <p className="mb-4">
-              A fresh graduate in Information Systems from State University of Surabaya, with expertise in Data Analytics and Machine Learning, leveraged through an internship as a Data Analyst and complemented by a dedicated focus on Marketing Analytics. 
+              A fresh graduate in Information Systems from State University of Surabaya, with expertise in Data Analytics and Machine Learning, leveraged through an internship as a Data Analyst and complemented by a dedicated focus on Market Analytics. 
               </p>
               <p className="mb-6">
               I am focused on how these technologies can transform raw data into actionable insights, driving smarter decision-making, and optimizing marketing strategies. My goal is to become a skilled data practitioner who creates impactful, real-world solutions by leveraging the full potential of data. 
@@ -55,7 +55,7 @@ const About: React.FC = () => {
                     <div className="relative">
                         <div className="absolute -left-[39px] top-1 w-5 h-5 rounded-full border-4 border-white dark:border-slate-800 bg-brand-blue"></div>
                         <h4 className="font-bold text-slate-800 dark:text-white">Market Analyst</h4>
-                        <p className="text-sm text-brand-blue font-medium mb-1">PT Nuclear Coating Fabric • Nov 2025 - Present</p>
+                        <p className="text-sm text-brand-blue font-medium mb-1">PT Nuclear Coating Fabric • Nov 2025 - May 2026</p>
                         <p className="text-sm text-slate-600 dark:text-slate-400">Analyzing market needs and competitive intelligence within the sublimation industry to formulate strategic business recommendations.</p>
                     </div>
                     {/* Experience 2 */}

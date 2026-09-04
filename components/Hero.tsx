@@ -5,7 +5,11 @@ import { ArrowRight, BarChart2, Database } from 'lucide-react';
 const Hero: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ['/profile_1.jpg', '/profile_2.jpg', '/profile_3.jpg'];
+  const images = [
+    `${import.meta.env.BASE_URL}profile_1.jpg`,
+    `${import.meta.env.BASE_URL}profile_2.jpg`,
+    `${import.meta.env.BASE_URL}profile_3.jpg`
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
